@@ -20,7 +20,7 @@ This repository is designed to help programmers improve their coding skills by p
 ## 🛠️ How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/paramveer7267/coding-questions.git
    ```
 2. Navigate to the desired folder:
    ```bash
@@ -29,23 +29,39 @@ This repository is designed to help programmers improve their coding skills by p
 3. Run the code using your preferred compiler or IDE.
 
 ## 📂 Problem Categories
-- **Arrays**
+<!-- - **Arrays**
 - **Strings**
 - **Linked Lists**
 - **Recursion & Backtracking**
 - **Sorting Algorithms**
 - **Dynamic Programming**
 - **Graphs and Trees**
-- **Bit Manipulation**
+- **Bit Manipulation** -->
+
+- **Easy**
+- **Medium**
+- **Hard**
 
 ## 📝 Sample Code Structure
-```
+<!-- ```
 .
 ├── Arrays
 │   ├── FindMaximumElement.cpp
 │   ├── RotateArray.cpp
 │   └── README.md
 ├── Strings
+│   ├── ReverseWords.cpp
+│   ├── PalindromeCheck.cpp
+│   └── README.md
+└── README.md
+``` -->
+```
+.
+├── Easy
+│   ├── FindMaximumElement.cpp
+│   ├── RotateArray.cpp
+│   └── README.md
+├── Medium
 │   ├── ReverseWords.cpp
 │   ├── PalindromeCheck.cpp
 │   └── README.md
@@ -71,8 +87,8 @@ Contributions are welcome! Feel free to:
 
 ## 📞 Contact
 If you have any questions or suggestions, feel free to reach out:
-- 📧 Email: your.email@example.com
-- 💬 LinkedIn: [YourProfile](https://www.linkedin.com/in/yourprofile)
+- 📧 Email: paramveer7267@gmail.com
+- 💬 LinkedIn: [Paramveer Singh](https://www.linkedin.com/in/paramveer7267/)
 
 ---
 Happy Coding! 🚀
