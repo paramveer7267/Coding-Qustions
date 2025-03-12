@@ -8,7 +8,6 @@
 // Using Naive Approach
 // Time Complexity : O(n)
 // Space Complexity: O(1)
-
 class Solution
 {
 public:
@@ -30,10 +29,10 @@ public:
   }
 };
 
+
 // Using STL/count_if Approach
 // Time Complexity : O(n)
 // Space Complexity: O(1)
-
 class Solution {
 public:
     int maximumCount(vector<int>& nums) {
@@ -49,5 +48,21 @@ public:
         int neg = count_if(begin(nums),end(nums),lambdaN);
 
         return max(pos,neg);
+    }
+};
+
+
+// Using lower_bound Approach
+// Time Complexity : O(n)
+// Space Complexity: O(1)
+class Solution {
+public:
+    int maximumCount(vector<int>& nums) {
+        int n = nums.size();
+
+        int firstP = lower_bound(begin(nums), end(nums), 1) - begin(nums);
+        int firstN = lower_bound(begin(nums), end(nums), 0) - begin(nums);
+
+        return max(n - firstP, firstN);
     }
 };
