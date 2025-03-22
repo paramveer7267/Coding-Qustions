@@ -1,6 +1,6 @@
 /*
-    LeetCode Easy               : 2529. Maximum Count of Positive Integer and Negative Integer
-    Leetcode Link               : https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer
+    LeetCode Easy               : 2206. Divide Array Into Equal Pairs
+    Leetcode Link               : https://leetcode.com/problems/divide-array-into-equal-pairs/description/
 */
 
 /*********************************************************** C++ **************************************************/
