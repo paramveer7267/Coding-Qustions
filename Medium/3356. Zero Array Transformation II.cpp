@@ -5,6 +5,8 @@
 
 /*********************************************************** C++ **************************************************/
 
+
+
 // Using Difference array with binary Search
 // Time Complexity :O(logQ * (Q + N)) 
 // Space Complexity:O(1)
