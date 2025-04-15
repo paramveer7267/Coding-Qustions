@@ -7,7 +7,7 @@
 
 
 // Usinig Brute Force
-// Time Complexity:O(n2)
+// Time Complexity:O(digits *(high - low + 1))
 // Space Complexity:O(1)
 class Solution {
 public:
