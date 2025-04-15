@@ -1,6 +1,6 @@
 /*
     LeetCode Easy               : 2843. Count Symmetric Integers
-    Leetcode Link               : https://leetcode.com/problems/find-first-palindromic-string-in-the-array/description/
+    Leetcode Link               : https://leetcode.com/problems/count-symmetric-integers/
 */
 
 /*********************************************************** C++ **************************************************/
