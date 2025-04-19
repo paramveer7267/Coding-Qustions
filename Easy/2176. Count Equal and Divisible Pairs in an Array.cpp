@@ -27,7 +27,7 @@ public:
 
 
 
-// Using Sliding Window
+// Using Optimal
 // Time Complexity: O(n * (log(k) + sqrt(k)))
 // Space Complexity: O(n)
 class Solution {
