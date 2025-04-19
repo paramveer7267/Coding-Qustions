@@ -26,8 +26,31 @@ public:
 };
 
 
+// Using Optimal 1
+// Time Complexity: O(n)
+// Space Complexity: O(n)
+class Solution {
+public:
+    int countPairs(vector<int>& nums, int k) {
+        int n = nums.size();
+        int count = 0;
+        unordered_map<int, list<int>> mp;
+        for (int i = 0; i < n; i++) {
+            if (mp.count(nums[i])) {
+                for (auto it : mp[nums[i]]) {
+                    int s = i * it;
+                    if (s % k == 0) {
+                        count++;
+                    }
+                }
+            }
+            mp[nums[i]].push_back(i);
+        }
+        return count;
+    }
+};
 
-// Using Optimal
+// Using Optimal 2
 // Time Complexity: O(n * (log(k) + sqrt(k)))
 // Space Complexity: O(n)
 class Solution {
